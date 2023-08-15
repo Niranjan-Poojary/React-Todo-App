@@ -13,6 +13,7 @@ const ToDo = (props) => {
                   return (
                       <React.Fragment key={task.id}>
 
+                        <div className='container'>
                           <div className="col taskBg">
                               {/* setting class name on Complete Condition  */}
                               <div className={task.completed ? 'done' : ''}>
@@ -47,6 +48,7 @@ const ToDo = (props) => {
                                   </span>
                               </div>
                           </div>
+                        </div>
                       </React.Fragment>
                   )
               })

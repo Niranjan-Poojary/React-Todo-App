@@ -10,7 +10,7 @@ import { Bars } from "react-loader-spinner";
 
 
 //main Component of this Todo App 
-const App = () => {
+const App = () => { 
 
 //after loading json we put whole object in json of useState
     const [json, setjson] = useState([]);
