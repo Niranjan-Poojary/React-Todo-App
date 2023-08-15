@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Create a Todolist app using react js jsonplaceholder api
+
+Fetch and show todo items from the api - https://jsonplaceholder.typicode.com/todos
+
+Add Bootstrap
+
+npm install --save bootstrap
+
+Add fontawesome
+
+npm i --save @fortawsome/free-solid-svg-icons
+
+npm install --save @fortawesome/react-fontawesome@latest
+
+
 ## Available Scripts
 
 In the project directory, you can run:
